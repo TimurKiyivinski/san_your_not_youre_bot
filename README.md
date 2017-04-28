@@ -1,22 +1,24 @@
 # TelegramSanBot
+A Tlgram Bot for [sanaas](https://github.com/TimurKiyivinski/sanaas) and [san](https://github.com/TimurKiyivinski/san).
+Th goal of this bot is to san.
 
-TODO: Write a description here
+## usag
+Prss this Tlgram [link](http://t.me/san_your_not_youre_bot)
 
-## Installation
+```
+/san send nudes
+snd nuds
 
-TODO: Write installation instructions here
+/sans send nudes
+s n d  n u d s
+```
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+## installation
+Just run `SAN_TELEGRAM_TOKEN="..." crystal src/TelegramSanBot.cr`
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/TelegramSanBot/fork )
+1. Fork it ( https://github.com/TimurKiyivinski/san_your_not_youre_bot/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +26,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Timur Kiyivinski - creator, maintainer
+- [[TimurKiyivinski]](https://github.com/TimurKiyivinski) Timur Kiyivinski - creator, maintainer
