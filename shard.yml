@@ -8,6 +8,10 @@ targets:
   TelegramSanBot:
     main: src/TelegramSanBot.cr
 
+dependencies:
+  TelegramBot:
+    github: hangyas/TelegramBot
+
 crystal: 0.22.0
 
 license: MIT
