@@ -1,0 +1,13 @@
+name: TelegramSanBot
+version: 0.1.0
+
+authors:
+  - Timur Kiyivinski <deathseclipse@gmail.com>
+
+targets:
+  TelegramSanBot:
+    main: src/TelegramSanBot.cr
+
+crystal: 0.22.0
+
+license: MIT
