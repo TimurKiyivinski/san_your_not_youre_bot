@@ -18,16 +18,20 @@ module TelegramSanBot
         def initialize(@token)
             super("SanBot", @token)
 
+            cmd "start" do |msg, params|
+                send_message msg.chat.id, "Wlcom to San"
+            end
+
             cmd "san" do |msg, params|
                 sanned = String.new
                 params.each { |word| sanned += "#{san(word, "")} " }
-                reply msg, sanned
+                send_message msg.chat.id, sanned
             end
 
             cmd "sans" do |msg, params|
                 sanned = String.new
                 params.each { |word| sanned += "#{san(word, " ")} " }
-                reply msg, sanned
+                send_message msg.chat.id, sanned
             end
         end
     end

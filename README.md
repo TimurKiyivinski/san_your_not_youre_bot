@@ -3,7 +3,7 @@ A Tlgram Bot for [sanaas](https://github.com/TimurKiyivinski/sanaas) and [san](h
 Th goal of this bot is to san.
 
 ## usag
-Prss this Tlgram [link](http://t.me/san_your_not_youre_bot)
+Prss this Tlgram [link](http://t.me/san_beb_bot)
 
 ```
 /san send nudes
